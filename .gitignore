@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker volumes
+drive/*
+!drive/.gitkeep
+record/*
+!record/.gitkeep
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Node modules (if any Node.js components are added later)
+node_modules/
+
+# Python (if any Python components are added later)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+
+# Temporary files
+*.tmp
+*.temp
